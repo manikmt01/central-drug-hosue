@@ -58,8 +58,12 @@
         gap: 12px 12px;
 
     }
+    .navbar{
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+    }
     .navbar-brand img {
-        max-width: 170px;
+        max-width: 130px;
     }
     .hero-row{
         flex-direction: column-reverse;
@@ -102,7 +106,7 @@
     }
     #shop{
         padding-top: 60px;
-        padding-bottom: 60px;
+        padding-bottom:30px;
     }
     .shop-heading{
         padding-bottom: 40px;
@@ -172,7 +176,8 @@
         flex-direction: column;
     }
     #contact{
-        padding: 60px 0;
+        padding-top: 60px;
+        padding-bottom: 30px;
     }
     .contact-row {
         text-align: center;
@@ -189,7 +194,7 @@
     }
     #faq{
         padding-top: 10px;
-        padding-bottom: 30px ;
+        padding-bottom: 20px ;
     }
     .contact-heading-row{
         text-align: center;

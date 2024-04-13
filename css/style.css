@@ -208,7 +208,7 @@ header .nav-link{
     background-color: #005768;
 }
 header .nav-link:is(:hover, :focus){
-    color: red !important;
+    color: #ff5533 !important;
 }
 .navbar-nav{
     display: flex;
@@ -277,8 +277,8 @@ header .nav-link:is(:hover, :focus){
     background-position: left -10% top 0%;
 }
 .hero-row{
-    padding-top: 145px;
-    padding-bottom: 105px;
+    padding-top: 80px;
+    padding-bottom: 64px;
 }
 .pills{
 background-color: #ED1C24;
@@ -367,8 +367,8 @@ border-radius: 30px;
     background-position: top right;
 }
 .about-row{
-    padding-top: 98px;
-    padding-bottom: 127px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 .about-image{
     max-width: 600px
@@ -418,6 +418,7 @@ border-radius: 30px;
 	-ms-transition:all 600ms ease;
 	-o-transition:all 600ms ease;
     z-index: 99;
+    height: 100%;
 }
 
 .why-single:hover .lrn-btn{
@@ -570,7 +571,7 @@ border-radius: 30px;
 /* why end */
 /* shop start */
 #shop{
-    padding: 108px 0 98px 0 ;
+    padding: 80px 0 80px 0 ;
 }
 .shop-heading{
     flex-direction: column;
@@ -584,7 +585,10 @@ border-radius: 30px;
   padding: 28px 0 20px 0;
 }
 .shop-heading{
-    padding-bottom: 88px;
+    padding-bottom: 64px;
+}
+.swiper-wrapper{
+    transition-timing-function: linear;
 }
 .gallerySwiper{
     width: 100%;
@@ -610,7 +614,7 @@ border-radius: 30px;
     justify-content: center;
     align-items: center;
     gap: 0 26px;
-    padding-top: 90px;
+    padding-top: 48px;
 }
 .cs-gallery-prev:hover .custom-svg circle,
 .custom-svg:hover path {
@@ -620,6 +624,7 @@ border-radius: 30px;
 .custom-svg:hover path {
     stroke: red !important; 
 }
+
 /* shop end */
 /* order start */
 #order{
@@ -628,8 +633,8 @@ border-radius: 30px;
     background-size: cover;
  }
  .order-row{
-    padding-top: 100px;
-    padding-bottom: 144px;
+    padding-top: 80px;
+    padding-bottom: 80px;
  }
  .order-content h2{
     font-family: "Bebas Neue", sans-serif;
@@ -674,11 +679,14 @@ border-radius: 30px;
  .order-button .lrn-btn:hover{
 color: #ED1C24;
  }
+ .gallerySwiper2{
+    padding-top: 10px;
+ }
 /* order end */
 /* testimoials start */
 #testimoials{
     background-color: #F1FDFF;
-    padding: 73px 0px 86px 0px;
+    padding: 80px 0px 80px 0px;
 }
 .testimoials-heading{
     flex-direction: column;
@@ -777,7 +785,7 @@ color: #ED1C24;
     gap: 0 18px;
 }
 .card-slider{
-    padding: 66px 0;
+    padding: 56px 0;
 }
 .testiSwiper .swiper-pagination-bullet-active{
     background: #005768;
@@ -820,7 +828,7 @@ color: #ED1C24;
 /* testimoials end */
 /* notify start */
 #notice{
-   padding: 117px 0 98px;
+   padding: 80px 0 80px;
 }
 .notify-content h2{
     font-family: "Bebas Neue", sans-serif;
@@ -910,7 +918,7 @@ button.btn-submit:hover{
 /* newsletter end */
 /* contact start */
 #contact{
-    padding: 140px 0px 102px 0;
+    padding: 80px 0px 80px 0;
 }
 .contact-heading h2{
     font-family: "Bebas Neue", sans-serif;
@@ -1061,7 +1069,7 @@ button.btn-submit:hover{
     color: #ffffff;
 }
 .footer1 a:hover{
-    color: #ED1C24;
+    color: #ff5533;
 }
 .fb-social{
     padding-top: 20px;
@@ -1087,13 +1095,13 @@ button.btn-submit:hover{
 
 }
 .footr2 a:hover{
-    color: #ED1C24;
+    color: #ff5533;
 }
 .ft-list{
     flex-direction: column;
     gap: 24px 0;
 }
 .fb-social a:hover .hover-red path{
-    fill: #ED1C24;
+    fill: #ff5533;
 }
 /* footer end */
