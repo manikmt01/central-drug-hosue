@@ -261,7 +261,7 @@ header .nav-link:is(:hover, :focus){
     padding: 10px 15px!important;
 }
 .dropdown-menu a:is(:hover, :focus){
-    background-color: #ED1C24;
+    background-color: #ff5533;
     color: #ffffff;
 }
 .btn-clse img{
