@@ -75,6 +75,9 @@
         padding-top: 60px;
         padding-bottom: 30px;
     }
+    .hero-image{
+        text-align: center;
+    }
     #hero{
         background-size: auto;
         background-position: left -50% top 0%;
@@ -129,6 +132,7 @@
      .order-min-image{
         padding-top: 30px;
         padding-bottom: 80px;
+        text-align: center;
      }
      .order-item-row{
         text-align: center;
@@ -136,7 +140,7 @@
      }
   
      .contact-heading .pill-center{
-        max-width: 165px;
+        max-width: 170px;
         margin: 0 auto;
      }
      #testimoials{
@@ -174,6 +178,9 @@
     }
     .input-group{
         flex-direction: column;
+    }
+    .notify-image{
+        text-align: center;
     }
     #contact{
         padding-top: 60px;

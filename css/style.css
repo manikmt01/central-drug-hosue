@@ -302,7 +302,21 @@ border-radius: 30px;
     padding-top: 14px;
     padding-bottom: 28px;
 }
-
+.hero-image{
+    position: relative;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
 
 #wave{
     max-height: 100px;
@@ -371,7 +385,8 @@ border-radius: 30px;
     padding-bottom: 80px;
 }
 .about-image{
-    max-width: 600px
+    max-width: 600px;
+    position: relative;
 }
 .about-content .about-title{
     font-family: "Bebas Neue", sans-serif;
@@ -847,6 +862,7 @@ color: #ED1C24;
 }
 .notify-image{
     text-align: end;
+    position: relative;
 }
 /* notify end */
 /* newsletter start */
